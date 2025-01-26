@@ -5,7 +5,7 @@ import { CiSearch } from "react-icons/ci";
 
 export default function Header() {
   return (
-    <nav className="flex items-center justify-between p-6">
+    <nav className="flex items-center justify-between p-4 md:p-6">
         <div className="flex items-center gap-5">
             <Logo/>
             <SearchBlog/>
